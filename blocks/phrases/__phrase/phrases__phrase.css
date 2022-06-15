@@ -1,0 +1,25 @@
+.phrases__phrase {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1140px) {
+  .phrases__phrase {
+
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .phrases__phrase {
+
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .phrases__phrase {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,27 @@
+.places__place {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+@media screen and (max-width: 1140px) {
+  .places__place {
+
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .places__place {
+
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places__place {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 50px;
+  }
+  .places__place:nth-child(2) {
+    flex-direction: column;
+  }
+}

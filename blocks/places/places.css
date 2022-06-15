@@ -1,0 +1,26 @@
+.places {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (max-width: 1140px) {
+  .places {
+
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .places {
+
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places {
+    display: flex;
+    flex-direction: column;
+  }
+}

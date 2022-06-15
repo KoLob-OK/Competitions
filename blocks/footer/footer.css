@@ -1,0 +1,27 @@
+.footer {
+  background-color: #fecda7;
+  width: 100%;
+  margin: 0 auto;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (max-width: 1140px) {
+  .footer {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .footer {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer {
+    height: 240px;
+  }
+}

@@ -1,0 +1,19 @@
+.phrases__phrase-text {
+  width: 100%;
+  margin: 0;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 984px) {
+  .phrases__phrase-text {
+
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .phrases__phrase-text {
+  }
+}
+

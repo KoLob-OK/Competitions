@@ -1,0 +1,31 @@
+.phrases {
+  margin: 135px auto 0;
+  width: calc(100% - 2*70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+@media screen and (max-width: 1140px) {
+  .phrases {
+    margin: 100px auto 0;
+    width: calc(100% - 2*35px);
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .phrases {
+
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .phrases {
+    max-width: 100%;
+    width: calc(100% - 2*16px);
+    margin: 45px auto 0;
+    flex-direction: column;
+    gap: 15px;
+  }
+}

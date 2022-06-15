@@ -1,10 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Проект о путешествиях по России">
+  <meta name="keywords"
+        content="Россия, путешествия, Черное море, лес, горы, КоЛобОК">
+  <meta name="author" content="KoLobOK">
+  <link rel="shortcut icon" href="./images/airplane.png" type="image/png">
+  <title>Куда я поеду?</title>
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
+<body class="page">
+
+<header class="header">
+  <nav class="header__menu">
+    <a class="header__menu-button" href="#" target="_blank">Мечты</a>
+    <a class="header__menu-button" href="#" target="_blank">Ожидания</a>
+    <a class="header__menu-button" href="#" target="_blank">Реальность</a>
+  </nav>
+  <button class="header__complain">Пожаловаться</button>
+
+</header>
+
+<main class="content">
+
+  <section class="intro">
+    <div class="section-textarea">
+      <p class="section-marker">Куда я поеду</p>
+      <h1 class="section-title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+    </div>
+    <img class="intro__img"
+         src="././images/intro-image.jpeg"
+         alt="Фото летящего над облаками хвоста самолета на фоне солнечных лучей">
+  </section>
+
+  <section class="places">
+    <div class="places__place">
+      <img class="places__img"
+           src="././images/places-forest.jpeg"
+           alt="Путешественник с рюкзаком стоит в лесу около водопада">
+      <div class="places__textarea">
+        <h2 class="places__title">Поеду в лес</h2>
+        <div class="places__description">
+          <p class="places__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой
+            являются
+            деревья.</p>
+          <p class="places__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных
+            уровнях.
+            В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около
+            трети
+            площади суши.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="places__place">
+      <div class="places__textarea">
+        <h2 class="places__title">Поеду в горы</h2>
+        <div class="places__description">
+          <p class="places__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % —
+            Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на
+            горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+        </div>
+      </div>
+      <img class="places__img"
+           src="././images/places-mountains.jpeg"
+           alt="Человек в шортах стоит у подножья заснеженной горы">
+    </div>
+
+    <div class="places__place">
+      <img class="places__img"
+           src="././images/places-black-sea.jpeg"
+           alt="Девушка стоит на берегу и смотрит на море">
+      <div class="places__textarea">
+        <h2 class="places__title">Поеду на Чёрное море</h2>
+        <div class="places__description">
+          <p class="places__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и
+            никогда
+            раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это
+            синее
+            небо, я позову.</p>
+          <p class="places__paragraph">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду
+            я.
+            Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+          <p class="places__paragraph">Уеду я.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="phrases">
+    <div class="section-textarea">
+      <p class="section-marker">Люди</p>
+      <h1 class="section-title">Что говорят и говорили люди&nbsp;о&nbsp;путешествиях</h1>
+    </div>
+    <ul class="phrases__table">
+      <li class="phrases__phrase">
+        <h3 class="phrases__phrase-author">Иван Бунин</h3>
+        <p class="phrases__phrase-text">Человека делают счастливым три вещи: любовь, интересная работа и возможность
+          путешествовать.</p>
+      </li>
+      <li class="phrases__phrase">
+        <h3 class="phrases__phrase-author">Альбер Камю</h3>
+        <p class="phrases__phrase-text">Путешествие как самая великая и серьезная наука помогает нам вновь обрести
+          себя.</p>
+      </li>
+      <li class="phrases__phrase">
+        <h3 class="phrases__phrase-author">Норвежская пословица</h3>
+        <p class="phrases__phrase-text">Лишь тот, кто странствует, открывает новые пути.</p>
+      </li>
+      <li class="phrases__phrase">
+        <h3 class="phrases__phrase-author">Мария Захарова</h3>
+        <p class="phrases__phrase-text">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень
+          рискованное предприятие.</p>
+      </li>
+    </ul>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer__copy">&copy; 2022</p>
+</footer>
 
 </body>
 </html>

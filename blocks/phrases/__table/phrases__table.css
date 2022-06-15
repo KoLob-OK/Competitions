@@ -1,0 +1,32 @@
+.phrases__table {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 65px;
+  margin: 115px 0 125px;
+}
+
+@media screen and (max-width: 1140px) {
+  .phrases__table {
+    margin: 85px 0;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .phrases__table {
+    margin: 45px 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .phrases__table {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
