@@ -16,18 +16,6 @@
   opacity: .4;
 }
 
-@media screen and (max-width: 1140px) {
-  .header__complain {
-
-  }
-}
-
-@media screen and (max-width: 984px) {
-  .header__complain {
-
-  }
-}
-
 @media screen and (max-width: 568px) {
   .header__complain {
     width: fit-content;

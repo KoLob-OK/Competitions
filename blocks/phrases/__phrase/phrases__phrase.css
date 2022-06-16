@@ -6,18 +6,6 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1140px) {
-  .phrases__phrase {
-
-  }
-}
-
-@media screen and (max-width: 984px) {
-  .phrases__phrase {
-
-  }
-}
-
 @media screen and (max-width: 568px) {
   .phrases__phrase {
     gap: 20px;

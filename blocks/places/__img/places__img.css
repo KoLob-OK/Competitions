@@ -4,12 +4,6 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1140px) {
-  .places__img {
-
-  }
-}
-
 @media screen and (max-width: 984px) {
   .places__img {
     height: 350px;

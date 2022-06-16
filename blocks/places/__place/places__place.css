@@ -3,18 +3,6 @@
   grid-template-columns: repeat(2, 50%);
 }
 
-@media screen and (max-width: 1140px) {
-  .places__place {
-
-  }
-}
-
-@media screen and (max-width: 984px) {
-  .places__place {
-
-  }
-}
-
 @media screen and (max-width: 568px) {
   .places__place {
     display: flex;
