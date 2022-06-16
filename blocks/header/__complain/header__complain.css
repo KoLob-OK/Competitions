@@ -6,11 +6,10 @@
   font-weight: 900;
   color: #010101;
   text-decoration: none;
-  /*border: none;*/
+  border: none;
   background: none;
   transition: opacity .3s linear;
   cursor: pointer;
-  border: 1px solid crimson;
 }
 
 .header__complain:hover {
