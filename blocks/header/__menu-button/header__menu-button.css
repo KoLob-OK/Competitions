@@ -7,14 +7,14 @@
   text-decoration: none;
   cursor: pointer;
   transition: transform .3s linear,
-              color .3s linear,
+              /*color .3s linear,*/
               opacity .3s linear;
 }
 
 .header__menu-button:hover {
    transform: scale(1.2);
    opacity: .7;
-   color: #fecda7;
+   /*color: #fecda7;*/
 }
 
 @media screen and (max-width: 1140px) {
